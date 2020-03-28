@@ -1,0 +1,20 @@
+<!--pages/detail/childComponents/rateInfo/rateInfo.wxml-->
+<view class="rateInfo">
+  <view class="head">
+    <text class="tilte">用户评价</text>
+    <text class="more">更多></text>
+  </view>
+  <view class="rate">
+    <view class="user">
+      <image src="{{rateInfo.avatar}}" />
+      <text>{{rateInfo.uname}}</text>
+    </view>
+    <view class="content">
+      <text>{{rateInfo.content}}</text>
+      <view class="created">
+        <text>{{rateInfo.created}} </text>
+        <text>{{rateInfo.style}}</text>
+      </view>
+    </view>
+  </view>
+</view>

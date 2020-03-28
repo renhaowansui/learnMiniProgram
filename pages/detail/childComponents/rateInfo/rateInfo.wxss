@@ -1,0 +1,30 @@
+/* pages/detail/childComponents/rateInfo/rateInfo.wxss */
+.rateInfo{
+  padding: 40rpx 30rpx  50rpx 30rpx;
+  border-bottom: 8rpx solid gainsboro;
+}
+.head{
+  height: 70rpx;
+  border-bottom: 2rpx solid gainsboro;
+}
+.tilte{
+  font-size: 35rpx;
+  text-align: right;
+}
+.more{
+  float: right
+}
+.user{
+  display: flex;
+  align-items: center;
+  margin: 30rpx 0;
+}
+.user image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.created{
+  line-height: 50rpx;
+}

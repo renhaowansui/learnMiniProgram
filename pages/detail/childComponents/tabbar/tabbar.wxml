@@ -1,0 +1,21 @@
+<!--pages/detail/childComponents/tabbar/tabbar.wxml-->
+<view class="tabbar">
+  <view class="tabbar-left">
+    <view>
+      <image src="/assets/detail/service.png" />
+      <view>客服</view>
+    </view>
+    <view>
+      <image src="/assets/detail/shop.png" />
+      <view>店铺</view>
+    </view>
+    <view>
+      <image src="/assets/detail/collect.png" />
+      <view>收藏</view>
+    </view>
+  </view>
+  <view class="tabbar-right">
+    <view class="add" bindtap="addClick">加入购物车</view>
+    <view class="buy">购买</view>
+  </view>
+</view>

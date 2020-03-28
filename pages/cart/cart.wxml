@@ -1,0 +1,15 @@
+<!--pages/cart/cart.wxml-->
+<view class="cart">
+  <scroll-view class="content" scroll-y>
+    <!-- 1.购物车列表 -->
+    <block wx:for="{{cartList}}" wx:key="index">
+      <listItem item="{{item}}" bind:checkClick="handleCheckClick" />
+    </block>
+  </scroll-view>
+  <!-- 2.商品总计 -->
+  <computed isAllCheck="{{isAllCheck}}"
+            price="{{price}}"
+            count="{{count}}"
+            bind:allCheckClick="handleAllCheckClick" />
+</view>
+

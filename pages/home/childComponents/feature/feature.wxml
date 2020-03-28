@@ -1,0 +1,4 @@
+<!--pages/home/childComponents/feature/feature.wxml-->
+<view>
+  <image src="/assets/home/popular_bg.jpg" />
+</view>

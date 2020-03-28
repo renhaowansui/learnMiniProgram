@@ -1,0 +1,18 @@
+<!--pages/cart/childComponents/computed/computed.wxml-->
+<view class="computed">
+  <view class="select">
+    <view bindtap="allCheckClick">
+      <icon type="success_no_circle" 
+            color="#ff5777" 
+            size="40rpx"
+            wx:if="{{isAllCheck}}"></icon>
+    </view>
+    <text>全选</text>
+  </view>
+  <view class="price">
+    <text>总计:￥ {{price}}</text>
+  </view>
+  <view class="buy">
+    <text>购买 ({{count}})</text>
+  </view>
+</view>

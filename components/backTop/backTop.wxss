@@ -1,0 +1,8 @@
+/* components/backTop/backTop.wxss */
+.but image{
+  position: fixed;
+  right: 50rpx;
+  bottom: 155rpx;
+  width: 100rpx;
+  height: 100rpx;
+}

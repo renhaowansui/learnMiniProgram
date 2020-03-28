@@ -1,0 +1,17 @@
+/**app.wxss**/
+page{
+  height: 100%;
+}
+.container {
+  color: #666;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  height: 100%;
+} 
+/* .ellipsis{
+  display: inline-block; 
+	white-space: nowrap;
+	width: 100%; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+} */

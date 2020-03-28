@@ -1,0 +1,24 @@
+<!--pages/cart/childComponents/listItem/listItem.wxml-->
+<view class="item">
+  <view class="select">
+    <view bindtap="checkClick">
+      <icon type="success_no_circle" 
+            color="#ff5777" 
+            size="40rpx"
+            wx:if="{{item.check}}"></icon>
+    </view>
+  </view>
+  <view class="content">
+    <view class="content-left">
+      <image src="{{item.img}}" mode="widthFix" />
+    </view>
+    <view class="content-right">
+      <text class="title ellipsis">{{item.title}}</text>
+      <text class="desc ellipsis">{{item.disc}}</text>
+      <view class="num">
+        <view class="price">￥ {{item.lowNowPrice}}</view>
+        <view class="count">* {{item.count}}</view>
+      </view>
+    </view>
+  </view>
+</view>

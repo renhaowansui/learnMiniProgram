@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "swiper": "/components/swiper/swiper",
+    "goodBaseInfo": "./childComponents/baseInfo/goodBaseInfo",
+    "shopInfo": "./childComponents/shopInfo/shopInfo",
+    "detailInfo": "./childComponents/detailInfo/detailInfo",
+    "paramInfo": "./childComponents/paramInfo/paramInfo",
+    "rateInfo": "./childComponents/rateInfo/rateInfo",
+    "goodList": "/components/goodList/goodList",
+    "backTop": "/components/backTop/backTop",
+    "tabbar": "./childComponents/tabbar/tabbar"
+  }
+}

@@ -1,0 +1,9 @@
+<!--pages/category/childComponents/subcategory/subcategory.wxml-->
+<view class="subcategoryList">
+  <block wx:for="{{subcategoryList}}" wx:key="index">
+    <view class="item">
+      <image src="{{item.image}}" />
+      <view>{{item.title}}</view>
+    </view>
+  </block>
+</view>

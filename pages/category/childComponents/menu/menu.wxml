@@ -1,0 +1,9 @@
+<!--pages/category/childComponents/menu/menu.wxml-->
+<view class="menu">
+  <block wx:for="{{menuList}}" wx:key="index">
+    <view class="item {{index == currentIndex? 'active' : ''}}" 
+          bindtap="itemClick" 
+          data-index="{{index}}">
+          {{item.title}}</view>
+  </block>
+</view>

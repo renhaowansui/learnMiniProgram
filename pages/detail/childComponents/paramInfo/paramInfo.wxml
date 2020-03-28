@@ -1,0 +1,21 @@
+<!--pages/detail/childComponents/paramInfo/paramInfo.wxml-->
+<view class="paramInfo">
+  <view class="rule">
+    <block wx:for="{{paramInfo.rule.tables[0]}}" wx:for-item="tr" wx:for-key="trIndex" wx:key="trIndex">
+      <view class="tr">
+        <block wx:for="{{tr}}" wx:for-item="td" wx:for-key="tdIndex" wx:key="tdIndex">
+          <view class="td">{{td}}</view>
+        </block>
+      </view>
+    </block>
+  </view>
+  <view class="info">
+    <block wx:for="{{paramInfo.info.set}}" wx:for-item="tr" wx:for-key="trIndex" wx:key="trIndex">
+      <view class="tr">
+        <block wx:for="{{tr}}" wx:for-item="td" wx:for-key="tdIndex" wx:key="tdIndex">
+          <view class="td">{{td}}</view>
+        </block>
+      </view>
+    </block>
+  </view>
+</view>

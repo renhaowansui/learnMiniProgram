@@ -1,0 +1,4 @@
+/* pages/home/childComponents/feature/feature.wxss */
+image{
+  width: 100%
+}

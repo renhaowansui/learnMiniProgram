@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "menu": "./childComponents/menu/menu",
+    "subcategory": "./childComponents/subcategory/subcategory",
+    "goodList": "/components/goodList/goodList"
+  }
+}

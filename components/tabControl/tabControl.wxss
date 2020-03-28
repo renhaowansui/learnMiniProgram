@@ -1,0 +1,14 @@
+/* components/tabControl/tabControl.wxss */
+.tabControl{
+  display: flex;
+  font-size: 30rpx;
+  padding: 25rpx 0;
+}
+.tabControl > view{
+  flex: 1
+}
+.active text{
+  color: #ff5777;
+  border-bottom: 2px solid #ff5777;
+  padding:0 10rpx 10rpx;
+}

@@ -1,0 +1,10 @@
+<!--components/goodList-item/goodList-item.wxml-->
+<view class="listItem" bindtap="goodClick">
+  <image src="{{good.show.img || good.image || good.img}}" mode="widthFix" />
+  <view class="info">
+    <text class="title ellipsis">{{good.title}}</text>
+    <text class="price">￥{{good.price}}</text>
+    <image class="cfavIcon" src="/assets/common/favor.png" />
+    <text class="cfav">{{good.cfav}}</text>
+  </view>
+</view>

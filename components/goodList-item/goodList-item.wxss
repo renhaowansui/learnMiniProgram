@@ -1,0 +1,25 @@
+/* components/goodList-item/goodList-item.wxss */
+.listItem image{
+  width: 100%;
+}
+.info{
+  text-align: center;
+}
+.info .price{
+  color: #ff5777;
+}
+.info .cfavIcon{
+  display: inline-block;
+  position: relative;
+  top: 4rpx;
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0 5rpx;
+}
+.ellipsis{
+  display: inline-block; 
+	white-space: nowrap;
+	width: 100%; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}

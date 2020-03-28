@@ -1,0 +1,16 @@
+/* pages/home/childComponents/recommends.wxss */
+.recommends{
+  display: flex;
+  padding: 40rpx 0;
+  border-bottom: 8px solid gainsboro
+}
+.recommends-item{
+  flex: 1
+}
+.recommends-item image{
+  width: 160rpx;
+  height: 160rpx
+}
+.recommends-item text{
+  display: inline-block
+}

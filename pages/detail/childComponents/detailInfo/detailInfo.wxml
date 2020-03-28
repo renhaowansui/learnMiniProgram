@@ -1,0 +1,12 @@
+<!--pages/detail/childComponents/detailInfo/detailInfo.wxml-->
+<view class="detailInfo">
+  <view class="text">
+    <view>{{detailInfo.desc}}</view>
+  </view>
+  <view>{{detailInfo.key}}</view>
+  <view class="list">
+    <block wx:for="{{detailInfo.list}}" wx:key="index">
+      <image src="{{item}}" mode="widthFix" />
+    </block>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+/* pages/detail/detail.wxss */
+.content{
+  height: calc(100% - 120rpx);
+  overflow: hidden;
+}
+#swiper{
+  height: 600rpx;
+}
+#swiper swiper{
+  height: 600rpx;
+}
+

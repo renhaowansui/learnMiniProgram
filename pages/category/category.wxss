@@ -1,0 +1,16 @@
+/* pages/category/category.wxss */
+.category{
+  color: #666;
+  font-size: 30rpx;
+  height: 100%;
+  display: flex;
+}
+.left{
+  width: 25%;
+  height: 100%;
+  background: gainsboro;
+}
+.right{
+  width: 75%;
+  height: 100%;
+}

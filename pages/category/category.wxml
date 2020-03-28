@@ -1,0 +1,11 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <scroll-view class="left" scroll-y>
+    <menu menuList="{{menu}}" bind:menuClick="handleMenuClick" />
+  </scroll-view>
+  <scroll-view class="right" scroll-y scroll-top="{{scrollTop}}">
+    <subcategory id="sub" subcategoryList="{{subcategory}}" />
+    <goodList listData="{{subDetail}}" />
+  </scroll-view>
+</view>
+ 

@@ -1,0 +1,42 @@
+/* pages/profile/profile.wxss */
+text{
+  color: #666;
+  font-size: 32rpx;
+}
+.profile{
+  background: gainsboro;
+  height: 100%;
+}
+.head{
+  display: flex;
+  align-items: center;
+  height: 300rpx;
+  background: #ff5777;
+  margin: 0 auto;
+}
+.headImg{
+  width: 180rpx;
+  height: 180rpx;
+  background: gainsboro;
+  border-radius: 50%;
+  margin-left: 30rpx;
+}
+.headImg image{
+  width: 180rpx;
+  height: 180rpx;
+}
+.content{
+  margin-top: 30rpx;
+  background: white;
+}
+.content>view{
+  display: flex;
+  align-items: center;
+  height: 90rpx;
+  border-bottom: 2rpx solid gainsboro;
+  padding-left: 20rpx;
+}
+.content image{
+  width: 50rpx;
+  height: 50rpx;
+}

@@ -1,0 +1,22 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile">
+  <view class="head">
+    <view class="headImg">
+      <image src="/assets/profile/avatar.png" />
+    </view>
+  </view>
+  <view class="content">
+    <view>
+      <image src="/assets/profile/message.png" />
+      <text>我的消息</text>
+    </view>
+    <view>
+      <image src="/assets/profile/pointer.png" />
+      <text>积分商城</text>
+    </view>
+    <view>
+      <image src="/assets/profile/vip.png" />
+      <text>会员卡</text>
+    </view>
+  </view>
+</view>

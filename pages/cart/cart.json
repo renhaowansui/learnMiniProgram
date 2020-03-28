@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "listItem": "./childComponents/listItem/listItem",
+    "computed": "./childComponents/computed/computed"
+  }
+}

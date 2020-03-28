@@ -1,0 +1,6 @@
+<!--components/goodList/goodList.wxml-->
+<view class="goodList">
+  <block wx:for="{{listData.list}}" wx:key="index">
+    <goodList-item class='item' good="{{item}}" />
+  </block>
+</view>

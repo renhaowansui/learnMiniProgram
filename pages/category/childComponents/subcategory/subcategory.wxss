@@ -1,0 +1,16 @@
+/* pages/category/childComponents/subcategory/subcategory.wxss */
+.subcategoryList{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  padding: 30rpx 20rpx;
+}
+.item{
+  width: 30%;
+  margin-top: 24rpx;
+}
+.item image{
+  width: 150rpx;
+  height: 150rpx;
+}

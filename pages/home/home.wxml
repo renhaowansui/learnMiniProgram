@@ -1,0 +1,24 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view class="home">
+    <!-- 1.轮播图组件 -->
+    <swiper id="swiper" banners='{{banners}}' />
+    <!-- 2.recommend组件 -->
+    <recommends recommends="{{recommends}}"
+                bind:recommendsLoad="handRecommendsLoad" />
+    <!-- 3.本周流行部分 -->
+    <feature />
+    <!-- 4.tabControl商品列选项 -->
+    <tabControl id="tabControl" 
+                wx:if="{{fixedTabControl}}"
+                tabTag="{{['流行', '新品', '热卖']}}" />
+    <tabControl id="tabControl" 
+                class="{{fixedTabControl? 'fixedTop' : ''}}"
+                tabTag="{{['流行', '新品', '热卖']}}"
+                bind:handleTagClick="handleTagClick" />
+    <!-- 5.goodList商品列表 -->
+    <goodList id="goodList" listData="{{goodsList[currentGoodType]}}" />
+    <!-- 6.backtop按钮 -->
+    <backTop wx:if="{{showBackTopButton}}" bind:backTop="handleBackTop"  />
+  </view>
+</view> 

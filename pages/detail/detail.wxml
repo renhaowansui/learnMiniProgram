@@ -1,0 +1,27 @@
+<!--pages/detail/detail.wxml-->
+<view class="container" style="height:100%;">
+  <scroll-view class="content" scroll-y>
+    <!-- 1.详情页轮播图 -->
+    <swiper id="swiper" banners="{{topImages}}" />
+    <!-- 2.商品基本信息 -->
+    <goodBaseInfo goodBaseInfo="{{goodBaseInfo}}" />
+    <!-- 3.店铺基本信息 -->
+    <shopInfo shopInfo="{{shopInfo}}" />
+    <!-- 4.商品详细信息 -->
+    <detailInfo detailInfo="{{goodDetailInfo}}" />
+    <!-- 5.商品参数信息 -->
+    <paramInfo paramInfo="{{paramInfo}}" />
+    <!-- 6.商品评论信息 -->
+    <rateInfo rateInfo="{{rateInfo}}" />
+    <!-- 7.商品推荐 -->
+    <view class="goodList">
+      <text>商品推荐</text>
+      <goodList listData="{{recommends}}" />
+    </view>   
+    <!-- 8.回到顶部按钮 -->
+    <backTop wx:if="{{showBackTopButton}}" bind:backTop="handleBackTop"  />
+  </scroll-view>
+  <!-- 9.底部操作栏 -->
+  <tabbar bind:addClick="handleAddClick" />
+</view>
+

@@ -1,0 +1,54 @@
+/* pages/detail/childComponents/showInfo/showInfo.wxss */
+.shopInfo{
+  width: 100%;
+  padding: 50rpx 30rpx;
+  box-sizing: border-box;
+  border-bottom: 6rpx solid gainsboro;
+}
+.title{
+  display: flex;
+  align-items: center;
+}
+.title image{
+  display: inline-block;
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.content{
+  display: flex;
+  align-items: center;
+  padding-bottom: 40rpx;
+}
+.content-left{
+  width: 50%;
+  text-align: center;
+}
+.goods, .sells{
+  display: inline-block;
+  padding-left: 30rpx;
+}
+.content-right{
+  width: 50%;
+  text-align: center;
+}
+.content-right .score{
+  display: inline-block;
+  width: 70rpx;
+}
+.content-right .low{
+  background: greenyellow
+}
+.content-right .red{
+  background: red
+}
+.but{
+  margin: 0 auto;
+  display: block;
+  width: 180rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color: white;
+  background: #ff5777;
+}

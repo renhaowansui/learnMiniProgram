@@ -1,0 +1,29 @@
+/* pages/detail/childComponents/tabbar/tabbar.wxss */
+.tabbar{
+  display: flex;
+  height: 120rpx;
+  text-align: center;
+}
+.tabbar image{
+  width: 50rpx;
+  height: 50rpx;
+  padding-top: 16rpx;
+}
+.tabbar-left, .tabbar-right{
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.tabbar-left > view, .tabbar-right > view{
+  flex: 1;
+  height: 100%;
+}
+.add{
+  line-height: 120rpx;
+  background: gold;
+}
+.buy{
+  color: white; 
+  line-height: 120rpx;
+  background: #ff5777;
+}

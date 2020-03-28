@@ -1,0 +1,54 @@
+/* pages/detail/childComponents/goodBaseInfo/goodBaseInfo.wxss */
+.info{
+  padding: 20rpx 15rpx;
+}
+.info text{
+  display: inline-block;
+  padding: 10rpx 8rpx 0;
+}
+.info .title{
+  font-size: 32rpx;
+}
+.info .price{
+  color: #ff5777;
+  font-weight: 700;
+}
+.info .oldPrice{
+  text-decoration: line-through;
+}
+.info .discountDesc{
+  padding: 5rpx;
+  color: white;
+  border-radius: 10rpx;
+  background: #ff5777;
+}
+.columns{
+  display: flex;
+  padding-bottom: 20rpx;
+  border-bottom: 6rpx solid gainsboro;
+}
+.columns>view{
+  flex: 1
+}
+.columns>view:nth-of-type(2){
+  text-align: center;
+}
+.columns>view:nth-of-type(3){
+  text-align: right;
+}
+.service{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx 0;
+  border-bottom:  8rpx solid gainsboro;
+}
+.service>view{
+  width: 33%;
+  text-align: center;
+  line-height: 50rpx;
+}
+.service image{
+  display: inline-block;
+  width: 30rpx;
+  height: 30rpx;
+}

@@ -1,0 +1,19 @@
+/* pages/detail/childComponents/detailInfo/detailInfo.wxss */
+.detailInfo{
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+  border-bottom: 8rpx solid gainsboro;
+}
+.text::before{
+  content: "--------------"
+}
+.text::after{
+  content: "-------------------------";
+}
+.list{
+  margin-top: 20rpx;
+}
+.list image{
+  display: block;
+  width: 100%;
+}
