@@ -1,8 +1,6 @@
 # miniMall-MiniProgram
 1.0 learning MiniProcess
-
-
-学习记录：
+# 学习记录：
 经过几天的学习，前端练习项目（首页、详情页、分类、购物车）
 
 其中遇到个小问题：
