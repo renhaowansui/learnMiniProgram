@@ -1,6 +1,24 @@
 # miniMall-MiniProgram
 1.0 learning MiniProcess
 
+###目录结构
+  ├── app                         //入口文件
+  │   └── api.js                  //入口文件
+  ├── assets                      //图片文件
+  ├── components                  //组件
+  │   ├── swiper                  //轮播图组件
+  │   ├── goodList                //商品列表组件
+  │   ├── goodList-item           //商品组件
+  │   ├── tabControl              //选项栏组件
+  │   ├── backTop                 //返回顶部按钮组件
+  │   └── check-icon              //图标组件
+  ├── pages  
+  │   ├── home                    //首页
+  │   ├── detail                  //详情页
+  │   ├── category                //分类页
+  │   └── cart                    //购物车
+  ├── servies                     //请求服务文件
+
 学习记录：
 经过几天的学习，上手的小项目
 
